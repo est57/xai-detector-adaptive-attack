@@ -33,6 +33,7 @@ A defense experiment then retrains the detector with adaptive samples for five r
 | `run_seeds.sh` | Runs several seeds in parallel and aggregates them |
 | `aggregate.py` | Mean and standard deviation across seeds, error-bar figure |
 | `make_figures.py` | Regenerates per-seed figures and the article figures (`results/figures/`) from the result CSV files |
+| `stats_tests.py` | Paired t-tests across seeds at ε = 0.3 with Holm correction (`results/stats/paired_tests.csv`) |
 
 ### Pipeline
 
@@ -137,6 +138,7 @@ Logs are written to `logs/`, aggregated results to `results/<dataset>/aggregate/
 | `run_seeds.sh` | Menjalankan beberapa seed secara paralel lalu agregasi |
 | `aggregate.py` | Rata-rata dan simpangan baku antar seed, grafik error bar |
 | `make_figures.py` | Membuat ulang grafik per seed dan grafik artikel (`results/figures/`) dari file CSV hasil uji coba |
+| `stats_tests.py` | Uji t berpasangan antar-seed pada ε = 0,3 dengan koreksi Holm (`results/stats/paired_tests.csv`) |
 
 ### Alur eksperimen
 
