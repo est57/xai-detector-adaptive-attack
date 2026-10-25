@@ -1,0 +1,19 @@
+{
+  "ids_clean_eval": {
+    "accuracy": 0.889264830912845,
+    "precision": 0.8764068299925761,
+    "recall": 0.9300412819462389,
+    "f1": 0.9024278375733855,
+    "roc_auc": 0.9732925214449181
+  },
+  "detector_threshold": 0.397157222032547,
+  "detector_fpr_clean_eval": 0.04714312980410529,
+  "n_attack_samples": 3000,
+  "attack_steps": 200,
+  "lambdas": [
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ]
+}

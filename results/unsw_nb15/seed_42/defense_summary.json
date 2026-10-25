@@ -1,0 +1,6 @@
+{
+  "rounds": 5,
+  "defense_lambda": 1.0,
+  "detector_threshold": 1.5268197059631348,
+  "detector_fpr_clean_eval": 0.04842711640900179
+}

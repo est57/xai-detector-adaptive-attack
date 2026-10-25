@@ -1,0 +1,29 @@
+# Lingkungan Python
+.venv/
+__pycache__/
+*.pyc
+
+# File sistem macOS
+.DS_Store
+
+# Dataset (diunduh terpisah dari sumber aslinya, lihat README)
+data/
+
+# Draf tesis, artikel, dan berkas referensi (PDF jurnal, ekspor Scopus)
+thesis/
+referensi/
+
+# Log eksekusi
+logs/
+
+# Model dan sampel adversarial hasil pelatihan (berukuran besar, dapat dibuat ulang)
+results/**/*.pt
+results/**/*.npz
+
+# Hasil versi lama
+results/archive/
+
+# Pengaturan lokal editor dan asisten
+.claude/
+.vscode/
+.idea/
